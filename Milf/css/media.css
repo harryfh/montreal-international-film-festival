@@ -73,6 +73,21 @@
   html {
     font-size: 37.5%;
   }
+  .gallery-tabs {
+    max-width: 80rem;
+    padding: 0.8rem;
+  }
+  .gallery-tab {
+    padding: 1.5rem 2rem;
+  }
+  .gallery-tab img {
+    width: 10rem;
+    height: auto;
+    max-height: 10rem;
+  }
+  .gallery-tab .tab-year {
+    font-size: 2rem;
+  }
   .float-left {
     transform: translate(-40%, -20%) !important;
   }
@@ -149,6 +164,24 @@
 @media (max-width: 40em) {
   html {
     font-size: 30%;
+  }
+  .gallery-tabs {
+    flex-direction: column;
+    gap: 0;
+    width: 90%;
+    max-width: 50rem;
+    padding: 0.8rem;
+  }
+  .gallery-tab {
+    padding: 1.5rem 2rem;
+  }
+  .gallery-tab img {
+    width: 8rem;
+    height: auto;
+    max-height: 8rem;
+  }
+  .gallery-tab .tab-year {
+    font-size: 1.8rem;
   }
 }
 @media (max-width: 30em) {
